@@ -21,13 +21,13 @@ const questions = [
   {
     id: 3,
     question:
-      "3.	Which brand uses the tagline “Utterly Butterly Delicious”?",
+      "Which brand uses the tagline “Utterly Butterly Delicious”?",
     options: ['Britannia', 'Nestlé', 'Mother Dairy', 'Amul'],
     answer: 3,
   },
   {
     id: 4,
-    question: "4.	Which public sector company rolled out nationwide Voice over WiFi (VoWiFi) services in India in January 2026?",
+    question: "Which public sector company rolled out nationwide Voice over WiFi (VoWiFi) services in India in January 2026?",
     options: ['MTNL', 'BSNL', 'RailTel', 'Jio'],
     answer: 1,
   },
@@ -53,7 +53,7 @@ const questions = [
   {
     id: 7,
     question:
-      'Which of the following best defines 'teamwork' in a professional environment?',
+      'Which of the following best defines teamwork in a professional environment?',
     options: ['Working independently to complete tasks faster', 'Collaborating with colleagues toward a shared goal', 'Delegating all tasks to the most experienced person', 'Competing with peers to achieve personal targets'],
     answer: 1,
   },
