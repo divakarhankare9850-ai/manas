@@ -570,7 +570,7 @@ function LoginScreen({ onLogin }) {
                   marginTop: 10,
                 }}
               >
-                Demo credentials: admin / admin123
+               
               </p>
             )}
           </form>
