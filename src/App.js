@@ -1345,6 +1345,9 @@ function QuizScreen({ user, onFinish }) {
       answers: selected,
     };
     await saveResult(entry);
+    if (document.fullscreenElement) {
+    document.exitFullscreen();
+    }
     onFinish({ score, timeLeft, selected });
   }
 
