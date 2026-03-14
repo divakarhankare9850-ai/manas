@@ -104,6 +104,24 @@ const questions = [
     explanation:
       'Differences: 4,6,8,10,12. Pattern = n(n+1). Next term = 30+12 = 42.',
   },
+  {
+    id: 11,
+    category: 'Analytical',
+    question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
+    options: ['40', '42', '44', '46'],
+    answer: 1,
+    explanation:
+      'Differences: 4,6,8,10,12. Pattern = n(n+1). Next term = 30+12 = 42.',
+  },
+  {
+    id: 12,
+    category: 'Analytical',
+    question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
+    options: ['40', '42', '44', '46'],
+    answer: 1,
+    explanation:
+      'Differences: 4,6,8,10,12. Pattern = n(n+1). Next term = 30+12 = 42.',
+  },
 ];
 
 const categoryColors = {
