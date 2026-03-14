@@ -282,7 +282,7 @@ function formatTime(s) {
   ).padStart(2, '0')}`;
 }
 
-{/*// ─── Storage using LocalStorage ─────────────────────────────────────────────
+// ─── Storage using LocalStorage ─────────────────────────────────────────────
 const PREFIX = 'aptresult:';
 
 async function saveResult(entry) {
@@ -311,7 +311,7 @@ function loadAllResults() {
   }
 
   return results;
-}*/}
+}
 
 // ─── Shared base CSS ──────────────────────────────────────────────────────────
 const BASE_CSS = `
