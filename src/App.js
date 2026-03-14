@@ -7,17 +7,13 @@ const ADMIN_CREDS = { username: 'admin', password: 'admin123' };
 const questions = [
   {
     id: 1,
-    category: 'Quantitative',
     question:
-      'A train 150m long passes a pole in 15 seconds. How long will it take to pass a platform 300m long?',
-    options: ['30 seconds', '45 seconds', '35 seconds', '40 seconds'],
-    answer: 1,
-    explanation:
-      'Speed = 150/15 = 10 m/s. Distance = 150+300 = 450m. Time = 450/10 = 45s.',
+      'What does CTC stand for in an offer letter?',
+    options: ['Cash to Customer', 'Cost to Company', 'Credit to Candidate', 'Core Technical Competency'],
+    answer: 2,
   },
   {
     id: 2,
-    category: 'Logical Reasoning',
     question: 'If PENCIL is coded as QFODLM, how is ERASER coded?',
     options: ['FSBTFS', 'FSBSFS', 'FSBSFQ', 'FSBSFR'],
     answer: 0,
@@ -26,7 +22,6 @@ const questions = [
   },
   {
     id: 3,
-    category: 'Data Interpretation',
     question:
       "A company's revenue grew from ₹40 lakhs to ₹52 lakhs. What is the percentage increase?",
     options: ['25%', '28%', '30%', '32%'],
@@ -35,7 +30,6 @@ const questions = [
   },
   {
     id: 4,
-    category: 'Verbal Ability',
     question: "Choose the word most OPPOSITE in meaning to 'OSTENTATIOUS':",
     options: ['Flamboyant', 'Modest', 'Pompous', 'Lavish'],
     answer: 1,
@@ -44,7 +38,6 @@ const questions = [
   },
   {
     id: 5,
-    category: 'Quantitative',
     question:
       'If 6 workers complete a job in 8 days, how many days will 4 workers take to complete the same job?',
     options: ['10 days', '12 days', '14 days', '16 days'],
@@ -54,7 +47,6 @@ const questions = [
   },
   {
     id: 6,
-    category: 'Critical Thinking',
     question:
       'All managers are leaders. Some leaders are visionaries. Which conclusion is definitely true?',
     options: [
@@ -69,7 +61,6 @@ const questions = [
   },
   {
     id: 7,
-    category: 'Engineering Aptitude',
     question:
       'A gear with 20 teeth meshes with a gear of 60 teeth. If the smaller gear rotates at 300 RPM, what is the RPM of the larger gear?',
     options: ['900 RPM', '100 RPM', '200 RPM', '150 RPM'],
@@ -79,7 +70,6 @@ const questions = [
   },
   {
     id: 8,
-    category: 'Management',
     question:
       'Which leadership style involves employees in decision-making and encourages autonomy?',
     options: ['Autocratic', 'Laissez-faire', 'Democratic', 'Transactional'],
@@ -89,7 +79,6 @@ const questions = [
   },
   {
     id: 9,
-    category: 'Quantitative',
     question: 'Simple interest on ₹5000 at 8% per annum for 3 years is:',
     options: ['₹1000', '₹1200', '₹1500', '₹2000'],
     answer: 1,
@@ -97,7 +86,6 @@ const questions = [
   },
   {
     id: 10,
-    category: 'Analytical',
     question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
     options: ['40', '42', '44', '46'],
     answer: 1,
@@ -106,7 +94,6 @@ const questions = [
   },
   {
     id: 11,
-    category: 'Analytical',
     question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
     options: ['40', '42', '44', '46'],
     answer: 1,
@@ -115,7 +102,6 @@ const questions = [
   },
   {
     id: 12,
-    category: 'Analytical',
     question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
     options: ['40', '42', '44', '46'],
     answer: 1,
@@ -124,7 +110,6 @@ const questions = [
   },
   {
     id: 13,
-    category: 'Quantitative',
     question:
       'A train 150m long passes a pole in 15 seconds. How long will it take to pass a platform 300m long?',
     options: ['30 seconds', '45 seconds', '35 seconds', '40 seconds'],
@@ -134,7 +119,6 @@ const questions = [
   },
   {
     id: 14,
-    category: 'Logical Reasoning',
     question: 'If PENCIL is coded as QFODLM, how is ERASER coded?',
     options: ['FSBTFS', 'FSBSFS', 'FSBSFQ', 'FSBSFR'],
     answer: 0,
@@ -143,7 +127,6 @@ const questions = [
   },
   {
     id: 15,
-    category: 'Data Interpretation',
     question:
       "A company's revenue grew from ₹40 lakhs to ₹52 lakhs. What is the percentage increase?",
     options: ['25%', '28%', '30%', '32%'],
@@ -152,7 +135,6 @@ const questions = [
   },
   {
     id: 16,
-    category: 'Verbal Ability',
     question: "Choose the word most OPPOSITE in meaning to 'OSTENTATIOUS':",
     options: ['Flamboyant', 'Modest', 'Pompous', 'Lavish'],
     answer: 1,
@@ -161,7 +143,6 @@ const questions = [
   },
   {
     id: 17,
-    category: 'Quantitative',
     question:
       'If 6 workers complete a job in 8 days, how many days will 4 workers take to complete the same job?',
     options: ['10 days', '12 days', '14 days', '16 days'],
@@ -171,7 +152,6 @@ const questions = [
   },
   {
     id: 18,
-    category: 'Critical Thinking',
     question:
       'All managers are leaders. Some leaders are visionaries. Which conclusion is definitely true?',
     options: [
@@ -186,7 +166,6 @@ const questions = [
   },
   {
     id: 19,
-    category: 'Engineering Aptitude',
     question:
       'A gear with 20 teeth meshes with a gear of 60 teeth. If the smaller gear rotates at 300 RPM, what is the RPM of the larger gear?',
     options: ['900 RPM', '100 RPM', '200 RPM', '150 RPM'],
@@ -196,7 +175,6 @@ const questions = [
   },
   {
     id: 20,
-    category: 'Management',
     question:
       'Which leadership style involves employees in decision-making and encourages autonomy?',
     options: ['Autocratic', 'Laissez-faire', 'Democratic', 'Transactional'],
@@ -206,7 +184,6 @@ const questions = [
   },
   {
     id: 21,
-    category: 'Quantitative',
     question: 'Simple interest on ₹5000 at 8% per annum for 3 years is:',
     options: ['₹1000', '₹1200', '₹1500', '₹2000'],
     answer: 1,
@@ -214,7 +191,6 @@ const questions = [
   },
   {
     id: 22,
-    category: 'Analytical',
     question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
     options: ['40', '42', '44', '46'],
     answer: 1,
@@ -223,7 +199,6 @@ const questions = [
   },
   {
     id: 23,
-    category: 'Analytical',
     question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
     options: ['40', '42', '44', '46'],
     answer: 1,
@@ -232,7 +207,6 @@ const questions = [
   },
   {
     id: 24,
-    category: 'Analytical',
     question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
     options: ['40', '42', '44', '46'],
     answer: 1,
@@ -241,7 +215,6 @@ const questions = [
   },
   {
     id: 25,
-    category: 'Engineering Aptitude',
     question:
       'A gear with 20 teeth meshes with a gear of 60 teeth. If the smaller gear rotates at 300 RPM, what is the RPM of the larger gear?',
     options: ['900 RPM', '100 RPM', '200 RPM', '150 RPM'],
@@ -251,7 +224,6 @@ const questions = [
   },
   {
     id: 26,
-    category: 'Management',
     question:
       'Which leadership style involves employees in decision-making and encourages autonomy?',
     options: ['Autocratic', 'Laissez-faire', 'Democratic', 'Transactional'],
@@ -261,7 +233,6 @@ const questions = [
   },
   {
     id: 27,
-    category: 'Quantitative',
     question: 'Simple interest on ₹5000 at 8% per annum for 3 years is:',
     options: ['₹1000', '₹1200', '₹1500', '₹2000'],
     answer: 1,
@@ -269,7 +240,6 @@ const questions = [
   },
   {
     id: 28,
-    category: 'Analytical',
     question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
     options: ['40', '42', '44', '46'],
     answer: 1,
@@ -278,7 +248,6 @@ const questions = [
   },
   {
     id: 29,
-    category: 'Analytical',
     question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
     options: ['40', '42', '44', '46'],
     answer: 1,
