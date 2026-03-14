@@ -122,6 +122,177 @@ const questions = [
     explanation:
       'Differences: 4,6,8,10,12. Pattern = n(n+1). Next term = 30+12 = 42.',
   },
+  {
+    id: 13,
+    category: 'Quantitative',
+    question:
+      'A train 150m long passes a pole in 15 seconds. How long will it take to pass a platform 300m long?',
+    options: ['30 seconds', '45 seconds', '35 seconds', '40 seconds'],
+    answer: 1,
+    explanation:
+      'Speed = 150/15 = 10 m/s. Distance = 150+300 = 450m. Time = 450/10 = 45s.',
+  },
+  {
+    id: 14,
+    category: 'Logical Reasoning',
+    question: 'If PENCIL is coded as QFODLM, how is ERASER coded?',
+    options: ['FSBTFS', 'FSBSFS', 'FSBSFQ', 'FSBSFR'],
+    answer: 0,
+    explanation:
+      'Each letter is shifted +1 in the alphabet: E→F, R→S, A→B, S→T, E→F, R→S = FSBTFS.',
+  },
+  {
+    id: 15,
+    category: 'Data Interpretation',
+    question:
+      "A company's revenue grew from ₹40 lakhs to ₹52 lakhs. What is the percentage increase?",
+    options: ['25%', '28%', '30%', '32%'],
+    answer: 2,
+    explanation: 'Increase = 12 lakhs. % = (12/40) × 100 = 30%.',
+  },
+  {
+    id: 16,
+    category: 'Verbal Ability',
+    question: "Choose the word most OPPOSITE in meaning to 'OSTENTATIOUS':",
+    options: ['Flamboyant', 'Modest', 'Pompous', 'Lavish'],
+    answer: 1,
+    explanation:
+      "Ostentatious means showy/pretentious. Its antonym is 'Modest' (unassuming, humble).",
+  },
+  {
+    id: 17,
+    category: 'Quantitative',
+    question:
+      'If 6 workers complete a job in 8 days, how many days will 4 workers take to complete the same job?',
+    options: ['10 days', '12 days', '14 days', '16 days'],
+    answer: 1,
+    explanation:
+      'Work = 6×8 = 48 man-days. Days for 4 workers = 48/4 = 12 days.',
+  },
+  {
+    id: 18,
+    category: 'Critical Thinking',
+    question:
+      'All managers are leaders. Some leaders are visionaries. Which conclusion is definitely true?',
+    options: [
+      'All managers are visionaries',
+      'Some managers are visionaries',
+      'No manager is a visionary',
+      'Some managers may or may not be visionaries',
+    ],
+    answer: 3,
+    explanation:
+      "Since only 'some leaders' are visionaries, we cannot confirm managers are visionaries — only that it's possible.",
+  },
+  {
+    id: 19,
+    category: 'Engineering Aptitude',
+    question:
+      'A gear with 20 teeth meshes with a gear of 60 teeth. If the smaller gear rotates at 300 RPM, what is the RPM of the larger gear?',
+    options: ['900 RPM', '100 RPM', '200 RPM', '150 RPM'],
+    answer: 1,
+    explanation:
+      'Gear ratio = 20/60 = 1/3. RPM of larger gear = 300 × (1/3) = 100 RPM.',
+  },
+  {
+    id: 20,
+    category: 'Management',
+    question:
+      'Which leadership style involves employees in decision-making and encourages autonomy?',
+    options: ['Autocratic', 'Laissez-faire', 'Democratic', 'Transactional'],
+    answer: 2,
+    explanation:
+      'Democratic (participative) leadership involves team members in decision-making while the leader retains final authority.',
+  },
+  {
+    id: 21,
+    category: 'Quantitative',
+    question: 'Simple interest on ₹5000 at 8% per annum for 3 years is:',
+    options: ['₹1000', '₹1200', '₹1500', '₹2000'],
+    answer: 1,
+    explanation: 'SI = (P × R × T)/100 = (5000 × 8 × 3)/100 = ₹1200.',
+  },
+  {
+    id: 22,
+    category: 'Analytical',
+    question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
+    options: ['40', '42', '44', '46'],
+    answer: 1,
+    explanation:
+      'Differences: 4,6,8,10,12. Pattern = n(n+1). Next term = 30+12 = 42.',
+  },
+  {
+    id: 23,
+    category: 'Analytical',
+    question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
+    options: ['40', '42', '44', '46'],
+    answer: 1,
+    explanation:
+      'Differences: 4,6,8,10,12. Pattern = n(n+1). Next term = 30+12 = 42.',
+  },
+  {
+    id: 24,
+    category: 'Analytical',
+    question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
+    options: ['40', '42', '44', '46'],
+    answer: 1,
+    explanation:
+      'Differences: 4,6,8,10,12. Pattern = n(n+1). Next term = 30+12 = 42.',
+  },
+  {
+    id: 25,
+    category: 'Engineering Aptitude',
+    question:
+      'A gear with 20 teeth meshes with a gear of 60 teeth. If the smaller gear rotates at 300 RPM, what is the RPM of the larger gear?',
+    options: ['900 RPM', '100 RPM', '200 RPM', '150 RPM'],
+    answer: 1,
+    explanation:
+      'Gear ratio = 20/60 = 1/3. RPM of larger gear = 300 × (1/3) = 100 RPM.',
+  },
+  {
+    id: 26,
+    category: 'Management',
+    question:
+      'Which leadership style involves employees in decision-making and encourages autonomy?',
+    options: ['Autocratic', 'Laissez-faire', 'Democratic', 'Transactional'],
+    answer: 2,
+    explanation:
+      'Democratic (participative) leadership involves team members in decision-making while the leader retains final authority.',
+  },
+  {
+    id: 27,
+    category: 'Quantitative',
+    question: 'Simple interest on ₹5000 at 8% per annum for 3 years is:',
+    options: ['₹1000', '₹1200', '₹1500', '₹2000'],
+    answer: 1,
+    explanation: 'SI = (P × R × T)/100 = (5000 × 8 × 3)/100 = ₹1200.',
+  },
+  {
+    id: 28,
+    category: 'Analytical',
+    question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
+    options: ['40', '42', '44', '46'],
+    answer: 1,
+    explanation:
+      'Differences: 4,6,8,10,12. Pattern = n(n+1). Next term = 30+12 = 42.',
+  },
+  {
+    id: 29,
+    category: 'Analytical',
+    question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
+    options: ['40', '42', '44', '46'],
+    answer: 1,
+    explanation:
+      'Differences: 4,6,8,10,12. Pattern = n(n+1). Next term = 30+12 = 42.',
+  },
+  {
+    id: 30,
+    question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
+    options: ['40', '42', '44', '46'],
+    answer: 1,
+    explanation:
+      'Differences: 4,6,8,10,12. Pattern = n(n+1). Next term = 30+12 = 42.',
+  },
 ];
 
 const categoryColors = {
