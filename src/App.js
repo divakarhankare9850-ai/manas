@@ -10,7 +10,7 @@ const questions = [
     question:
       'What does CTC stand for in an offer letter?',
     options: ['Cash to Customer', 'Cost to Company', 'Credit to Candidate', 'Core Technical Competency'],
-    answer: 2,
+    answer: 1,
   },
   {
     id: 2,
