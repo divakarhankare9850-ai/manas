@@ -113,6 +113,7 @@ const questions = [
     question: "If you are 15th from the front and 10th from the back in a queue, how many people are in the queue?",
     options: ['24', '22', '26', '25'],
     answer: 0,
+  }
   {
     id: 17,
     question:
