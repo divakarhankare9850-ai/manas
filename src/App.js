@@ -1698,7 +1698,7 @@ function ResultScreen({ user, result, onReview, onLogout }) {
           }}
         >
           {[
-            { l: 'Score', v: `${score}/10`, c: gc },
+            { l: 'Score', v: `${score}/${questions.length}`, c: gc },
             { l: 'Percentage', v: `${pct}%`, c: gc },
             { l: 'Grade', v: grade, c: gc },
             { l: 'Time Left', v: formatTime(timeLeft), c: '#60A5FA' },
