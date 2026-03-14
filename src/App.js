@@ -570,7 +570,7 @@ function LoginScreen({ onLogin }) {
                   marginTop: 10,
                 }}
               >
-               
+               Developed with love
               </p>
             )}
           </form>
