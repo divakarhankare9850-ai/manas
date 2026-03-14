@@ -11,14 +11,14 @@ const questions = [
       'What does CTC stand for in an offer letter?',
     options: ['Cash to Customer', 'Cost to Company', 'Credit to Candidate', 'Core Technical Competency'],
     answer: 1,
-    explanation:
+    explanation:''
   },
   {
     id: 2,
     question: 'What is the formal process of introducing a new employee to the organization?',
     options: ['Recruitment', 'Probation', 'Induction/Orientation', 'Appraisal'],
     answer: 2,
-    explanation:
+    explanation:''
   },
   {
     id: 3,
@@ -26,14 +26,14 @@ const questions = [
       "Which brand uses the tagline “Utterly Butterly Delicious”?",
     options: ['Britannia', 'Nestlé', 'Mother Dairy', 'Amul'],
     answer: 3,
-    explanation:
+    explanation:''
   },
   {
     id: 4,
     question: "Which public sector company rolled out nationwide Voice over WiFi (VoWiFi) services in India in January 2026?",
     options: ['MTNL', 'BSNL', 'RailTel', 'Jio'],
     answer: 1,
-    explanation:
+    explanation:''
   },
   {
     id: 5,
@@ -41,7 +41,7 @@ const questions = [
       'What does "WWW" stand for in a website address?',
     options: ['Whole World Web', 'World Wide Web ', 'Web World Wide', 'World Web Wide'],
     answer: 1,
-    explanation:
+    explanation:''
   },
   {
     id: 6,
@@ -54,7 +54,7 @@ const questions = [
       '₹25,000'
     ],
     answer: 2,
-    explanation:
+    explanation:''
   },
   {
     id: 7,
@@ -62,7 +62,7 @@ const questions = [
       'Which of the following best defines teamwork in a professional environment?',
     options: ['Working independently to complete tasks faster', 'Collaborating with colleagues toward a shared goal', 'Delegating all tasks to the most experienced person', 'Competing with peers to achieve personal targets'],
     answer: 1,
-    explanation:
+    explanation:''
   },
   {
     id: 8,
@@ -70,35 +70,35 @@ const questions = [
       'Moving an employee from one department/job to another to broaden their experience is called:',
     options: ['Job Rotation', 'Job Enlargement', 'Promotion', 'Mentoring'],
     answer: 0,
-    explanation:
+    explanation:''
   },
   {
     id: 9,
     question: 'Which of the following best describes emotional intelligence (EQ) in the workplace?',
     options: ['Having a very high IQ and academic excellence', 'Always agreeing with your manager to maintain harmony', 'Being emotionally detached to avoid conflicts', 'The ability to recognise, understand and manage your own emotions and those of others'],
     answer: 3,
-    explanation:
+    explanation:''
   },
   {
     id: 10,
     question: 'Which of these describes the person (qualifications/skills) rather than the tasks?',
     options: ['Job Specification', 'Job Description', 'Job Analysis', 'Job Enrichment'],
     answer: 0,
-    explanation:
+    explanation:''
   },
   {
     id: 11,
     question: 'What does the phrase "A Herculean task" mean?',
     options: ['A task that is very easy.', 'An extremely difficult task requiring great effort. ', 'A task that involves physical sports.', 'A task that is done by a team.'],
     answer: 1,
-    explanation:
+    explanation:''
   },
   {
     id: 12,
     question: 'Under the New Labour Codes, Basic Pay must be at least what percentage of the total CTC?',
     options: ['30%', '40%', '50%', '60%'],
     answer: 2,
-    explanation:
+    explanation:''
   },
   {
     id: 13,
@@ -106,14 +106,14 @@ const questions = [
       'In a corporate context, what does KRA stand for?',
     options: ['Key Result Area', 'Key Reporting Authority', 'Knowledge Resource Audit', 'Key Responsibility Assessment'],
     answer: 0,
-    explanation:
+    explanation:''
   },
   {
     id: 14,
     question: 'Which groups Attacked on Israel?',
     options: ['Hezbollah', 'ISIS', 'Hamas', 'Al-Qaeda'],
     answer: 2,
-    explanation:
+    explanation:''
   },
   {
     id: 15,
@@ -121,22 +121,22 @@ const questions = [
       "Under the Factories Act, 1948, what is the maximum number of working hours per week for an adult worker in India?",
     options: ['40 hours', '45 hours', '48 hours', '60 hours'],
     answer: 2,
-    explanation:
+    explanation:''
   },
   {
     id: 16,
     question: "If you are 15th from the front and 10th from the back in a queue, how many people are in the queue?",
     options: ['24', '22', '26', '25'],
     answer: 0,
-    explanation:
-  }
+    explanation:''
+  },
   {
     id: 17,
     question:
       'A clock shows 3:00. What is the angle between the hour and minute hand?',
     options: ['60 degrees', '75 degrees', '90 degrees', '120 degree'],
     answer: 2,
-    explanation:
+    explanation:''
   },
   {
     id: 18,
@@ -149,7 +149,7 @@ const questions = [
       'Recruitment happens after hiring.',
     ],
     answer: 1,
-    explanation:
+    explanation:''
   },
   {
     id: 19,
@@ -157,7 +157,7 @@ const questions = [
       'Performance appraisal means:',
     options: ['Evaluation of employee work', 'Employee promotion', 'Giving salary', 'Recruitment'],
     answer: 0,
-    explanation:
+    explanation:''
   },
   {
     id: 20,
@@ -165,28 +165,28 @@ const questions = [
       'Which company developed ChatGPT?',
     options: ['Google', 'Microsoft', 'OpenAI', 'Amazon'],
     answer: 2,
-    explanation:
+    explanation:''
   },
   {
     id: 21,
     question: 'The tagline “Har Ghar Kuch Kehta Hai” belongs to:',
     options: ['Berger Paints', 'Dulux', 'Nerolac Paints', 'Asian Paints'],
     answer: 3,
-    explanation:
+    explanation:''
   },
   {
     id: 22,
     question: 'Which is the smallest country in the world by land area?',
     options: ['Monaco', 'Vatican City', 'San Marino', 'Maldives'],
     answer: 1,
-    explanation:
+    explanation:''
   },
   {
     id: 23,
     question: 'Whats a key aspect of diversity and inclusion?',
     options: ['Equal opportunities', 'Inclusive culture', 'Diverse hiring', 'All of the above'],
     answer: 3,
-    explanation:
+    explanation:''
   },
   {
     id: 24,
@@ -195,7 +195,7 @@ const questions = [
               'The time it takes to get hired.', 
               'The lunch break duration.', 'The time spent on vacation.'],
     answer: 0,
-    explanation:
+    explanation:''
   },
   {
     id: 25,
@@ -206,7 +206,7 @@ const questions = [
               'Creating a plan to replace underperforming employees', 
               'Identifying and developing internal talent to fill key leadership positions in the future '],
     answer: 3,
-    explanation:
+    explanation:''
   },
   {
     id: 26,
@@ -214,35 +214,35 @@ const questions = [
       'Which performance appraisal method collects feedback from an employees superiors, peers, subordinates, and self to give a complete picture of performance?',
     options: ['Management by Objectives (MBO)', 'Graphic Rating Scale', '360-Degree Feedback', 'Critical Incident Method'],
     answer: 2,
-    explanation:
+    explanation:''
   },
   {
     id: 27,
     question: 'Under the Employees Provident Fund (EPF) Act, 1952, what percentage of an employees basic salary is contributed by the employer towards PF?',
     options: ['12%', '10%', '15%', '8%'],
     answer: 0,
-    explanation:
+    explanation:''
   },
   {
     id: 28,
     question: 'Which of these is an example of "Direct Compensation"?',
     options: ['Health Insurance', 'Paid Vacation', 'Base Salary', 'Retirement Plans'],
     answer: 2,
-    explanation:
+    explanation:''
   },
   {
     id: 29,
     question: 'The Sexual Harassment of Women at Workplace (Prevention, Prohibition and Protection) Act — commonly known as the POSH Act — was enacted in which year in India?',
     options: ['2010', '2011', '2013', '2015'],
     answer: 2,
-    explanation:
+    explanation:''
   },
   {
     id: 30,
     question: 'The Code on Wages, 2019 consolidates how many existing wage-related Acts?',
     options: ['2', '3', '5', '4'],
     answer: 3,
-    explanation:
+    explanation:''
   },
 ];
 
