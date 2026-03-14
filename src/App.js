@@ -1268,6 +1268,16 @@ function IntroScreen({ user, onStart, onLogout }) {
 
 // ─── QuizScreen ───────────────────────────────────────────────────────────────
 function QuizScreen({ user, onFinish }) {
+  function enterFullscreen() {
+    const el = document.documentElement;
+    if (el.requestFullscreen) {
+      el.requestFullscreen();
+    } else if (el.webkitRequestFullscreen) {
+      el.webkitRequestFullscreen();
+    } else if (el.msRequestFullscreen) {
+      el.msRequestFullscreen();
+    }
+  }
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState(Array(questions.length).fill(null));
   const [timeLeft, setTimeLeft] = useState(TOTAL_TIME);
@@ -1283,6 +1293,42 @@ function QuizScreen({ user, onFinish }) {
     return () => clearTimeout(t);
   }, [timeLeft]);
 
+  useEffect(() => {
+  enterFullscreen();
+  }, []);
+
+  useEffect(() => {
+  const handleFullscreenChange = () => {
+    if (!document.fullscreenElement) {
+      alert("Fullscreen exited. Test will be submitted.");
+      doSubmit();
+    }
+  };
+  document.addEventListener("fullscreenchange", handleFullscreenChange);
+  return () => {
+    document.removeEventListener("fullscreenchange", handleFullscreenChange);
+  };
+}, []);
+  
+  useEffect(() => {
+  const blockKeys = (e) => {
+    if (
+      e.key === "F12" || 
+      (e.ctrlKey && e.key === "c") ||
+      (e.ctrlKey && e.key === "v") ||
+      (e.ctrlKey && e.key === "u") ||
+      (e.ctrlKey && e.shiftKey && e.key === "I")
+    ) {
+      e.preventDefault();
+      alert("This action is not allowed during the test.");
+    }
+  };
+  document.addEventListener("keydown", blockKeys);
+  return () => {
+    document.removeEventListener("keydown", blockKeys);
+  };
+}, []);
+  
   async function doSubmit() {
     if (saving) return;
     setSaving(true);
