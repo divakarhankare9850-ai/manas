@@ -1221,8 +1221,8 @@ function IntroScreen({ user, onStart, onLogout }) {
           }}
         >
           {[
-            ['10 Questions', '8 categories'],
-            ['10 Minutes', 'Timed exam'],
+            ['30 Questions', '8 categories'],
+            ['30 Minutes', 'Timed exam'],
             ['MCQ Format', 'Single best answer'],
             ['Full Review', 'Post-submission only'],
           ].map(([h, s]) => (
