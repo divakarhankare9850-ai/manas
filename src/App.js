@@ -830,7 +830,7 @@ function AdminDashboard({ admin, onLogout }) {
             },
             {
               label: 'Top Score',
-              value: `${topScore}/10`,
+              value: `${topScore}/${questions.length}`,
               icon: '🏆',
               color: '#22C55E',
             },
@@ -1045,7 +1045,7 @@ function AdminDashboard({ admin, onLogout }) {
                     fontSize: 16,
                   }}
                 >
-                  {r.score}/10
+                  {r.score}/{questions.length}
                 </div>
                 <div
                   style={{
