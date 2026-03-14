@@ -275,14 +275,14 @@ const categoryColors = {
   Analytical: { badge: '#E2E8F0', text: '#1E293B' },
 };
 
-const TOTAL_TIME = 600;
+const TOTAL_TIME = 1800;
 function formatTime(s) {
   return `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(
     s % 60
   ).padStart(2, '0')}`;
 }
 
-// ─── Storage using LocalStorage ─────────────────────────────────────────────
+{/*// ─── Storage using LocalStorage ─────────────────────────────────────────────
 const PREFIX = 'aptresult:';
 
 async function saveResult(entry) {
@@ -311,7 +311,7 @@ function loadAllResults() {
   }
 
   return results;
-}
+}*/}
 
 // ─── Shared base CSS ──────────────────────────────────────────────────────────
 const BASE_CSS = `
