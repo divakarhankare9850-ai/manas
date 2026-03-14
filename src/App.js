@@ -14,253 +14,204 @@ const questions = [
   },
   {
     id: 2,
-    question: 'If PENCIL is coded as QFODLM, how is ERASER coded?',
-    options: ['FSBTFS', 'FSBSFS', 'FSBSFQ', 'FSBSFR'],
-    answer: 0,
-    explanation:
-      'Each letter is shifted +1 in the alphabet: E→F, R→S, A→B, S→T, E→F, R→S = FSBTFS.',
+    question: 'What is the formal process of introducing a new employee to the organization?',
+    options: ['Recruitment', 'Probation', 'Induction/Orientation', 'Appraisal'],
+    answer: 2,
   },
   {
     id: 3,
     question:
-      "A company's revenue grew from ₹40 lakhs to ₹52 lakhs. What is the percentage increase?",
-    options: ['25%', '28%', '30%', '32%'],
-    answer: 2,
-    explanation: 'Increase = 12 lakhs. % = (12/40) × 100 = 30%.',
+      "3.	Which brand uses the tagline “Utterly Butterly Delicious”?",
+    options: ['Britannia', 'Nestlé', 'Mother Dairy', 'Amul'],
+    answer: 3,
   },
   {
     id: 4,
-    question: "Choose the word most OPPOSITE in meaning to 'OSTENTATIOUS':",
-    options: ['Flamboyant', 'Modest', 'Pompous', 'Lavish'],
+    question: "4.	Which public sector company rolled out nationwide Voice over WiFi (VoWiFi) services in India in January 2026?",
+    options: ['MTNL', 'BSNL', 'RailTel', 'Jio'],
     answer: 1,
-    explanation:
-      "Ostentatious means showy/pretentious. Its antonym is 'Modest' (unassuming, humble).",
   },
   {
     id: 5,
     question:
-      'If 6 workers complete a job in 8 days, how many days will 4 workers take to complete the same job?',
-    options: ['10 days', '12 days', '14 days', '16 days'],
+      'What does "WWW" stand for in a website address?',
+    options: ['Whole World Web', 'World Wide Web ', 'Web World Wide', 'World Web Wide'],
     answer: 1,
-    explanation:
-      'Work = 6×8 = 48 man-days. Days for 4 workers = 48/4 = 12 days.',
   },
   {
     id: 6,
     question:
-      'All managers are leaders. Some leaders are visionaries. Which conclusion is definitely true?',
+      'To be considered a "Supervisor" (and not a "Worker"), an employees monthly salary must now exceed:',
     options: [
-      'All managers are visionaries',
-      'Some managers are visionaries',
-      'No manager is a visionary',
-      'Some managers may or may not be visionaries',
+      '₹12,000',
+      '₹15,000',
+      '₹18,000',
+      '₹25,000',
     ],
-    answer: 3,
-    explanation:
-      "Since only 'some leaders' are visionaries, we cannot confirm managers are visionaries — only that it's possible.",
+    answer: 2,
   },
   {
     id: 7,
     question:
-      'A gear with 20 teeth meshes with a gear of 60 teeth. If the smaller gear rotates at 300 RPM, what is the RPM of the larger gear?',
-    options: ['900 RPM', '100 RPM', '200 RPM', '150 RPM'],
+      'Which of the following best defines 'teamwork' in a professional environment?',
+    options: ['Working independently to complete tasks faster', 'Collaborating with colleagues toward a shared goal', 'Delegating all tasks to the most experienced person', 'Competing with peers to achieve personal targets'],
     answer: 1,
-    explanation:
-      'Gear ratio = 20/60 = 1/3. RPM of larger gear = 300 × (1/3) = 100 RPM.',
   },
   {
     id: 8,
     question:
-      'Which leadership style involves employees in decision-making and encourages autonomy?',
-    options: ['Autocratic', 'Laissez-faire', 'Democratic', 'Transactional'],
-    answer: 2,
-    explanation:
-      'Democratic (participative) leadership involves team members in decision-making while the leader retains final authority.',
+      'Moving an employee from one department/job to another to broaden their experience is called:',
+    options: ['Job Rotation', 'Job Enlargement', 'Promotion', 'Mentoring'],
+    answer: 0,
   },
   {
     id: 9,
-    question: 'Simple interest on ₹5000 at 8% per annum for 3 years is:',
-    options: ['₹1000', '₹1200', '₹1500', '₹2000'],
-    answer: 1,
-    explanation: 'SI = (P × R × T)/100 = (5000 × 8 × 3)/100 = ₹1200.',
+    question: 'Which of the following best describes emotional intelligence (EQ) in the workplace?',
+    options: ['Having a very high IQ and academic excellence', 'Always agreeing with your manager to maintain harmony', 'Being emotionally detached to avoid conflicts', 'The ability to recognise, understand and manage your own emotions and those of others'],
+    answer: 3,
   },
   {
     id: 10,
-    question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
-    options: ['40', '42', '44', '46'],
-    answer: 1,
-    explanation:
-      'Differences: 4,6,8,10,12. Pattern = n(n+1). Next term = 30+12 = 42.',
+    question: 'Which of these describes the person (qualifications/skills) rather than the tasks?',
+    options: ['Job Specification', 'Job Description', 'Job Analysis', 'Job Enrichment'],
+    answer: 0,
   },
   {
     id: 11,
-    question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
-    options: ['40', '42', '44', '46'],
+    question: 'What does the phrase "A Herculean task" mean?',
+    options: ['A task that is very easy.', 'An extremely difficult task requiring great effort. ', 'A task that involves physical sports.', 'A task that is done by a team.'],
     answer: 1,
-    explanation:
-      'Differences: 4,6,8,10,12. Pattern = n(n+1). Next term = 30+12 = 42.',
   },
   {
     id: 12,
-    question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
-    options: ['40', '42', '44', '46'],
-    answer: 1,
-    explanation:
-      'Differences: 4,6,8,10,12. Pattern = n(n+1). Next term = 30+12 = 42.',
+    question: 'Under the New Labour Codes, Basic Pay must be at least what percentage of the total CTC?',
+    options: ['30%', '40%', '50%', '60%'],
+    answer: 2,
   },
   {
     id: 13,
     question:
-      'A train 150m long passes a pole in 15 seconds. How long will it take to pass a platform 300m long?',
-    options: ['30 seconds', '45 seconds', '35 seconds', '40 seconds'],
-    answer: 1,
-    explanation:
-      'Speed = 150/15 = 10 m/s. Distance = 150+300 = 450m. Time = 450/10 = 45s.',
+      'In a corporate context, what does KRA stand for?',
+    options: ['Key Result Area', 'Key Reporting Authority', 'Knowledge Resource Audit', 'Key Responsibility Assessment'],
+    answer: 0,
   },
   {
     id: 14,
-    question: 'If PENCIL is coded as QFODLM, how is ERASER coded?',
-    options: ['FSBTFS', 'FSBSFS', 'FSBSFQ', 'FSBSFR'],
-    answer: 0,
-    explanation:
-      'Each letter is shifted +1 in the alphabet: E→F, R→S, A→B, S→T, E→F, R→S = FSBTFS.',
+    question: 'Which groups Attacked on Israel?',
+    options: ['Hezbollah', 'ISIS', 'Hamas', 'Al-Qaeda'],
+    answer: 2,
   },
   {
     id: 15,
     question:
-      "A company's revenue grew from ₹40 lakhs to ₹52 lakhs. What is the percentage increase?",
-    options: ['25%', '28%', '30%', '32%'],
+      "Under the Factories Act, 1948, what is the maximum number of working hours per week for an adult worker in India?",
+    options: ['40 hours', '45 hours', '48 hours', '60 hours'],
     answer: 2,
-    explanation: 'Increase = 12 lakhs. % = (12/40) × 100 = 30%.',
   },
   {
     id: 16,
-    question: "Choose the word most OPPOSITE in meaning to 'OSTENTATIOUS':",
-    options: ['Flamboyant', 'Modest', 'Pompous', 'Lavish'],
-    answer: 1,
-    explanation:
-      "Ostentatious means showy/pretentious. Its antonym is 'Modest' (unassuming, humble).",
-  },
+    question: "If you are 15th from the front and 10th from the back in a queue, how many people are in the queue?",
+    options: ['24', '22', '26', '25'],
+    answer: 0,
   {
     id: 17,
     question:
-      'If 6 workers complete a job in 8 days, how many days will 4 workers take to complete the same job?',
-    options: ['10 days', '12 days', '14 days', '16 days'],
-    answer: 1,
-    explanation:
-      'Work = 6×8 = 48 man-days. Days for 4 workers = 48/4 = 12 days.',
+      'A clock shows 3:00. What is the angle between the hour and minute hand?',
+    options: ['60 degrees', '75 degrees', '90 degrees', '120 degree'],
+    answer: 2,
   },
   {
     id: 18,
     question:
-      'All managers are leaders. Some leaders are visionaries. Which conclusion is definitely true?',
+      'What is the main difference between recruitment and selection?',
     options: [
-      'All managers are visionaries',
-      'Some managers are visionaries',
-      'No manager is a visionary',
-      'Some managers may or may not be visionaries',
+      'Recruitment is negative; Selection is positive.',
+      'Recruitment is positive (inviting many); Selection is negative (picking the best/rejecting others).',
+      'They are exactly the same.',
+      'Recruitment happens after hiring.',
     ],
-    answer: 3,
-    explanation:
-      "Since only 'some leaders' are visionaries, we cannot confirm managers are visionaries — only that it's possible.",
+    answer: 1,
   },
   {
     id: 19,
     question:
-      'A gear with 20 teeth meshes with a gear of 60 teeth. If the smaller gear rotates at 300 RPM, what is the RPM of the larger gear?',
-    options: ['900 RPM', '100 RPM', '200 RPM', '150 RPM'],
-    answer: 1,
-    explanation:
-      'Gear ratio = 20/60 = 1/3. RPM of larger gear = 300 × (1/3) = 100 RPM.',
+      'Performance appraisal means:',
+    options: ['Evaluation of employee work', 'Employee promotion', 'Giving salary', 'Recruitment'],
+    answer: 0,
   },
   {
     id: 20,
     question:
-      'Which leadership style involves employees in decision-making and encourages autonomy?',
-    options: ['Autocratic', 'Laissez-faire', 'Democratic', 'Transactional'],
+      'Which company developed ChatGPT?',
+    options: ['Google', 'Microsoft', 'OpenAI', 'Amazon'],
     answer: 2,
-    explanation:
-      'Democratic (participative) leadership involves team members in decision-making while the leader retains final authority.',
   },
   {
     id: 21,
-    question: 'Simple interest on ₹5000 at 8% per annum for 3 years is:',
-    options: ['₹1000', '₹1200', '₹1500', '₹2000'],
-    answer: 1,
-    explanation: 'SI = (P × R × T)/100 = (5000 × 8 × 3)/100 = ₹1200.',
+    question: 'The tagline “Har Ghar Kuch Kehta Hai” belongs to:',
+    options: ['Berger Paints', 'Dulux', 'Nerolac Paints', 'Asian Paints'],
+    answer: 3,
   },
   {
     id: 22,
-    question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
-    options: ['40', '42', '44', '46'],
+    question: 'Which is the smallest country in the world by land area?',
+    options: ['Monaco', 'Vatican City', 'San Marino', 'Maldives'],
     answer: 1,
-    explanation:
-      'Differences: 4,6,8,10,12. Pattern = n(n+1). Next term = 30+12 = 42.',
   },
   {
     id: 23,
-    question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
-    options: ['40', '42', '44', '46'],
-    answer: 1,
-    explanation:
-      'Differences: 4,6,8,10,12. Pattern = n(n+1). Next term = 30+12 = 42.',
+    question: 'Whats a key aspect of diversity and inclusion?',
+    options: ['Equal opportunities', 'Inclusive culture', 'Diverse hiring', 'All of the above'],
+    answer: 3,
   },
   {
     id: 24,
-    question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
-    options: ['40', '42', '44', '46'],
-    answer: 1,
-    explanation:
-      'Differences: 4,6,8,10,12. Pattern = n(n+1). Next term = 30+12 = 42.',
+    question: 'What is the "Notice Period"?',
+    options: ['The time an employee must work after resigning before leaving.', 
+              'The time it takes to get hired.', 
+              'The lunch break duration.', 'The time spent on vacation.'],
+    answer: 0,
   },
   {
     id: 25,
     question:
-      'A gear with 20 teeth meshes with a gear of 60 teeth. If the smaller gear rotates at 300 RPM, what is the RPM of the larger gear?',
-    options: ['900 RPM', '100 RPM', '200 RPM', '150 RPM'],
-    answer: 1,
-    explanation:
-      'Gear ratio = 20/60 = 1/3. RPM of larger gear = 300 × (1/3) = 100 RPM.',
+      'What does "Succession Planning" mean in HR?',
+    options: ['Planning the order of employee promotions based on seniority', 
+              'Scheduling employee retirement dates in advance', 
+              'Creating a plan to replace underperforming employees', 
+              'Identifying and developing internal talent to fill key leadership positions in the future '],
+    answer: 3,
   },
   {
     id: 26,
     question:
-      'Which leadership style involves employees in decision-making and encourages autonomy?',
-    options: ['Autocratic', 'Laissez-faire', 'Democratic', 'Transactional'],
+      'Which performance appraisal method collects feedback from an employees superiors, peers, subordinates, and self to give a complete picture of performance?',
+    options: ['Management by Objectives (MBO)', 'Graphic Rating Scale', '360-Degree Feedback', 'Critical Incident Method'],
     answer: 2,
-    explanation:
-      'Democratic (participative) leadership involves team members in decision-making while the leader retains final authority.',
   },
   {
     id: 27,
-    question: 'Simple interest on ₹5000 at 8% per annum for 3 years is:',
-    options: ['₹1000', '₹1200', '₹1500', '₹2000'],
-    answer: 1,
-    explanation: 'SI = (P × R × T)/100 = (5000 × 8 × 3)/100 = ₹1200.',
+    question: 'Under the Employees Provident Fund (EPF) Act, 1952, what percentage of an employees basic salary is contributed by the employer towards PF?',
+    options: ['12%', '10%', '15%', '8%'],
+    answer: 0,
   },
   {
     id: 28,
-    question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
-    options: ['40', '42', '44', '46'],
-    answer: 1,
-    explanation:
-      'Differences: 4,6,8,10,12. Pattern = n(n+1). Next term = 30+12 = 42.',
+    question: 'Which of these is an example of "Direct Compensation"?',
+    options: ['Health Insurance', 'Paid Vacation', 'Base Salary', 'Retirement Plans'],
+    answer: 2,
   },
   {
     id: 29,
-    question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
-    options: ['40', '42', '44', '46'],
-    answer: 1,
-    explanation:
-      'Differences: 4,6,8,10,12. Pattern = n(n+1). Next term = 30+12 = 42.',
+    question: 'The Sexual Harassment of Women at Workplace (Prevention, Prohibition and Protection) Act — commonly known as the POSH Act — was enacted in which year in India?',
+    options: ['2010', '2011', '2013', '2015'],
+    answer: 2,
   },
   {
     id: 30,
-    question: 'A series: 2, 6, 12, 20, 30, ___ . What comes next?',
-    options: ['40', '42', '44', '46'],
-    answer: 1,
-    explanation:
-      'Differences: 4,6,8,10,12. Pattern = n(n+1). Next term = 30+12 = 42.',
+    question: 'The Code on Wages, 2019 consolidates how many existing wage-related Acts?',
+    options: ['2', '3', '5', '4'],
+    answer: 3,
   },
 ];
 
